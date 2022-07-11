@@ -25,9 +25,6 @@ function convert(obj) {
            for(let innerKey in newObj2) {
                 newObj[innerKey] = newObj2[innerKey];
             };
-            for(let foo2Key in newObj2) {
-                newObj[foo2Key] = newObj2[foo2Key];
-            };
         } else {
             newObj[key] = obj[key];
         }
